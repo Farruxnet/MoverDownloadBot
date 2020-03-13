@@ -5,7 +5,7 @@
 import telebot
 import urllib.request
 ################################TOKEN################################
-bot = telebot.TeleBot('1009671060:AAHpaCPs4d9Un9NO75jiFxPq78SYiXIMIlQ')
+bot = telebot.TeleBot('your token')
 
 ################################START################################
 @bot.message_handler(commands=['start'])
@@ -36,16 +36,4 @@ def SendLink(message):
 
 bot.polling(none_stop=True)
 
-
-
-
-
-
-
-
-
-
-
-
-
-
+########################################################################
